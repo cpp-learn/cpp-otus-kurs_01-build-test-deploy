@@ -1,6 +1,6 @@
 #define BOOST_TEST_MODULE helloworld_test_module
 
-#include "lib.h"
+#include "../src/lib.h"
 
 #include <boost/test/unit_test.hpp>
 
