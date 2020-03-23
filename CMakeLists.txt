@@ -10,7 +10,7 @@ configure_file(version.h.in ${PROJECT_SOURCE_DIR}/version.h)
 # бинарник
 add_executable(helloworld_cli main.cpp)
 
-# статическая библиоткеа
+# статическая библиотека
 add_library(helloworld lib.cpp)
 
 # бинарник
@@ -19,7 +19,7 @@ add_executable(test_version test_version.cpp)
 set_target_properties(helloworld_cli helloworld test_version PROPERTIES
 	CXX_STANDARD 17
 	CXX_STANDARD_REQUIRED ON
-	COMPILE_OPTIONS "-Wpedantic;-Wall-Wextra" # включение ворнингов
+	COMPILE_OPTIONS "-Wpedantic;-Wall;-Wextra" # включение ворнингов
 )
 
 set_target_properties(test_version PROPERTIES
