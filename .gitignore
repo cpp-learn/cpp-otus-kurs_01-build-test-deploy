@@ -1,7 +1,4 @@
-# original files from course
-/orig/
-
 # build and cache
 /build/
-/CMakeCache.txt
 /CMakeFiles/
+/CMakeCache.txt
